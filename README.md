@@ -67,17 +67,17 @@ OR
 ## Frontend - React
 ### Installation
 
-This section involves creating of a new react app and then replacing the contents with that of the previous folder "frontend"
-into the newly created react app
+This section involves creating of a new react app,then moving the `node_modules` directory into the `frontend` directory
 
-> You can manoeuvre around this in any way you find suitable provided you have a react app with the node modules and contents from the previous frontend folder
+> You can manoeuvre around this in any way you find suitable provided you have `node_modules` directory inside the `frontend` dir.
+> Sorry i never found a perfect way to handle this,you're free to modify this readme and submit a PR
 
 ```
 cd Connecting-React-Frontend-to-a-Flask-Backend/backend
-npx create-react-app front-end
-cd front-end
+npx create-react-app react-app
+cd react-app
 ```
-Copy the contents of the other folder,replace the existing ones
+Copy the `node_modules` dir into the `frontend` dir
 
 `npm start`
 
