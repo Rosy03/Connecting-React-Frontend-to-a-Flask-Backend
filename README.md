@@ -67,8 +67,9 @@ OR
 ## Frontend - React
 ### Installation
 
-This section involves creating of a new react app and then replacing the contents of the previous folder "frontend"
+This section involves creating of a new react app and then replacing the contents with that of the previous folder "frontend"
 into the newly created react app
+
 > You can manoeuvre around this in any way you find suitable provided you have a react app with the node modules and contents from the previous frontend folder
 
 ```
@@ -77,5 +78,6 @@ npx create-react-app front-end
 cd front-end
 ```
 Copy the contents of the other folder,replace the existing ones
+
 `npm start`
 
