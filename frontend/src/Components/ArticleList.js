@@ -2,7 +2,7 @@
 const ArticleList = (props) => {
 
     return (
-        <div className="mt-2">
+        <div className="m-2">
         {/* Display the article details if article is not None */} 
    	    {props.articles && props.articles.map(article =>{
             return (
